@@ -1,0 +1,31 @@
+/* https://www.thecodecampus.de/blog/angular-full-height-app-component/ */
+:host {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.wholepage{
+  min-height: 100vh;
+  min-width: 100vh;
+}
+
+.carta {
+  padding: 20px;
+}
+
+.btn:hover{
+  box-shadow: 0px 0px 9px rgba(250, 32, 32, 0.35); 
+}
+.jumbotron {
+  background: linear-gradient(9deg, rgba(131, 207, 43, 0.665) 44%,#ccfbb8 100%);
+}
+
+
+
+.btn-warning{
+  background: rgba(37, 66, 4, 0.665);
+  border: 2px solid rgb(55, 100, 44);
+}
