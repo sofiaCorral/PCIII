@@ -17,7 +17,8 @@ import { CreateRecipeComponent } from './pages/create-recipe/create-recipe.compo
   imports: [
     CommonModule,
     RecipesRoutingModule,
-    SharedModule
+    SharedModule,
+    
   ]
 })
 export class RecipesModule { }

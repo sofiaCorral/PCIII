@@ -37,7 +37,10 @@
   <link rel="stylesheet" type="text/css" href="detail-recipes.component.css">
 </head>
 <body>
-  <h1>Bebidas</h1>
+  <h1>{{recipeDetail?.title}} </h1>
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let ingredient of recipeDetail?.ingredients "> {{ingredient.name}}</li>
+  </ul>
   <div class="galeria">
     <img src="../../../../assets/cocacola1.jpg" alt="cocacola1">
     <img src="../../../../assets/cocacola2.jpg" alt="cocacola2">

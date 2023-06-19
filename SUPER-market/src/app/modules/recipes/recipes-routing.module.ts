@@ -4,6 +4,7 @@ import { DetailRecipesComponent } from './pages/detail-recipes/detail-recipes.co
 import { RecipesComponent } from './pages/recipes/recipes.component';
 import { CreateRecipeComponent } from './pages/create-recipe/create-recipe.component';
 
+
 const routes: Routes = [
   {
     path: '',
@@ -11,11 +12,13 @@ const routes: Routes = [
   },
   {
     path: 'detail/:id',
-    component: DetailRecipesComponent
+    component: DetailRecipesComponent,
+    
   },
   {
     path: 'create',
-    component: CreateRecipeComponent
+    component: CreateRecipeComponent,
+    
   },
 ];
 
